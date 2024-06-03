@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <script>
+      //   let humanDetails1 = {
+      //     name: "kodu",
+      //     fatherName: "batman",
+      //     motherName: "cat woman",
+      //   };
+      //   let father1Details = {
+      //     age: 400,
+      //     ocupation: "green lantern",
+      //   };
+      //   let mother1Details = {
+      //     age: 1000,
+      //     ocupation: "fly",
+      //   };
+
+      let humanDetails1 = {
+        name: "kodu",
+        fatherDetails: {
+          name: "batman",
+          age: 400,
+          ocupation: "green lantern",
+        },
+        motherDetails: {
+          name: "cat woman",
+          age: 1000,
+          ocupation: "fly",
+        },
+      };
+
+      console.log(humanDetails1.name);
+      console.log(humanDetails1.fatherDetails);
+      console.log(humanDetails1.motherDetails);
+
+      /***
+       *
+       *
+       *
+       **/
+      console.log(humanDetails1.motherDetails.name);
+    </script>
+  </body>
+</html>
